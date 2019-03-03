@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.header_title}>Get summoners!!</Text>
+        <Text style={styles.header_title}>Get summoners!!!</Text>
       </View>
     );
   }
