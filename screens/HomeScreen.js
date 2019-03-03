@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../components/Header.js";
-import SummnorTextInput from "../components/Textinput.js";
+import SummnorTextInput from "../components/SummnorTextInput.js/index.js";
 import { StyleSheet, View } from "react-native";
 
 export default class App extends Component {
