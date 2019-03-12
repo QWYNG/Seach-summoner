@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/Header.js";
-import SummnorTextInput from "../components/SummnorTextInput.js/index.js";
-import { StyleSheet, View } from "react-native";
+import SummnorTextInput from "../components/SummnorTextInput.js";
+import { StyleSheet, View, Image } from "react-native";
 
 export default class App extends Component {
   render() {
@@ -9,6 +9,13 @@ export default class App extends Component {
       <View style={styles.flex}>
         <Header />
         <SummnorTextInput />
+        <Image
+          style={{ width: 50, height: 50 }}
+          source={{
+            uri:
+              "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/Aatrox.png"
+          }}
+        />
       </View>
     );
   }
